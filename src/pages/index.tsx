@@ -10,7 +10,7 @@ import {
   Logo,
   Main,
   Title,
-} from './index.style';
+} from 'components/home.style';
 
 const Home = () => {
   return (
