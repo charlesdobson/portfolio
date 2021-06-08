@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "format": "prettier --ignore-path .gitignore \"**/*.+(ts|js|tsx)\" --write",
     "lint": "eslint --ignore-path .gitignore \"**/*.+(ts|js|tsx)\"",
     "start": "next start"
@@ -12,6 +12,7 @@
   "dependencies": {
     "@emotion/react": "11.4.0",
     "@emotion/styled": "11.3.0",
+    "@netlify/plugin-nextjs": "^3.4.2",
     "next": "10.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
